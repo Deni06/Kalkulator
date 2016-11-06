@@ -128,9 +128,9 @@ public class Kalkulator extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void BtnOk3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BtnOk3ActionPerformed
-        int bilangan1 = Integer.parseInt(bil1.getText());
-        int bilangan2 = Integer.parseInt(bil3.getText());
-        int hasilbagi = bilangan1/bilangan2;
+        double bilangan1 = Integer.parseInt(bil1.getText());
+        double bilangan2 = Integer.parseInt(bil3.getText());
+        double hasilbagi = bilangan1/bilangan2;
 
         Hasil.setText(String.valueOf(hasilbagi));
     }//GEN-LAST:event_BtnOk3ActionPerformed
